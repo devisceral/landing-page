@@ -43,6 +43,12 @@ body {
     font-size: 18px;
 }
 
+.main-header-menu-item:hover {
+    box-shadow: 0 2px rgba(236, 214, 196, 0.53);
+    transition: 0.3s ease-in;
+    color: var(--button-othertext-color);
+}
+
 /* Main Content */
 
 main {
@@ -91,11 +97,17 @@ main {
     color: #2f2325;
 }
 
+.main-content-written-button:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+    transition: 0.3s ease-in;
+    color: var(--text-color);
+}
+
 .main-content-img {
     height: 430px;
 }
 
-/* Secondary Main Content */
+/* Secondary Content */
 
 .secondary-content {
     display:flex;
@@ -135,3 +147,4 @@ footer {
     display: block;
     margin: 0 auto;
 }
+
