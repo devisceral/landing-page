@@ -2,6 +2,7 @@
 /* font-family: 'Righteous', cursive;*/
 :root {
     --text-color: #fff2e7;
+    --button-othertext-color: #ecd6c4;
 }
 
 * {
@@ -54,5 +55,43 @@ main {
     flex-direction: row; /* 2- propriedades do fle-box, quando jogamos o flex-box automaticamente ja fica definidoo por padrão flex-direction row, e como vamos usar row, não precisariamos colocar.*/ 
     align-items: center; /* para arrumar centralizando os itens */ 
     justify-content: space-around; /* para colocar um espaço nas coisas entre si */ 
-
 }
+
+.main-content-written {
+    display: flex;
+    flex-direction: column;
+    gap: 32px; /* espaços entre os elementos*/ 
+}
+
+.main-content-written-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: var(--text-color);
+}
+
+.main-content-written-subtitle {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ecd6c4;
+}
+
+.main-content-written-button {
+    background-color: var(--button-othertext-color);
+    width: 180px;
+    height: 60px;
+    border: none;
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2f2325;
+}
+
+.main-content-img {
+    height: 430px;
+}
+
